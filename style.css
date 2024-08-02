@@ -1,0 +1,559 @@
+body{
+    width: 100%;    margin: 0;  top: 0; height: 100vh;  display: flex;  justify-content: center;
+    font-family: "Raleway", sans-serif; font-style: normal; background-color: white;
+}
+
+/*corps*/
+
+.main{
+    width: 90%;
+    height: auto;
+}
+
+/*bar de navigation*/
+
+nav{
+    display: flex;  width: 100%;    margin-top: 10px;   justify-content: space-between; align-items: center;
+}
+
+.log{
+    display: flex;  flex: left;
+}
+
+.ulDiv{
+    display: flex;  justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+}
+
+.ulDiv ul{
+    display: flex;  list-style: none;   margin: 0;  color: #12171F; font-family: "Raleway", sans-serif;
+    font-size: 16px;    font-weight: 600;   justify-content: space-between; width: 100%;
+}
+
+#activeColor{
+    padding: 0px 10px 0px 10px; cursor: pointer;    text-decoration: none;  color: #12171F;
+    font-family: "Raleway", sans-serif; font-size: 16px;    font-weight: 600; 
+}
+
+#signInBtn{
+    background-color: #F8F8F8;    border: none;   border-right: 2px solid #0E1218 ;   margin-right: 20px; 
+    margin-bottom: 5px; margin-top: 5px;    padding: 4px 26px 4px 26px; color: #12171F; 
+    font-family: "Raleway", sans-serif; font-size: 16px;    font-weight: 600;
+}
+
+#connectWalBtn{
+    color: white;   background-color: #0E1218;  border: none;   border-radius: 50px; 
+    padding: 10px 26px 10px 26px;   font-family: "Raleway", sans-serif;     font-size: 16px;
+    font-weight: 600; 
+
+}
+
+#navigationBtn{
+    padding: 0px 10px 0px 10px; font-weight: 500;   cursor: pointer;    text-decoration: none;
+    color: #12171F; font-family: "Raleway", sans-serif; font-size: 16px;    font-weight: 600;
+}
+
+/*sidebar*/
+.menu{
+    display: none;  background-color: #E8E9EA;  border-radius:8px ; padding: 8px;
+}
+
+.close{
+    display: block; float: right;   background-color: #E8E9EA;  border-radius:8px ; padding: 8px;
+}
+
+.sidbarBk{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.256);
+    width: 100%;
+    height: 1000vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+.sideBar{
+    display: none;  background-color: #F8F8F8;  width: 60%; top: 0; right: 0;   position: fixed;
+    height: 1000vh; z-index: 99999; box-shadow: 2px 0px 10px rgb(40, 40, 40);   align-items: left;
+    justify-content: left;  text-align: left;   flex-direction: column; padding: 12px 52px 64px 52px;
+}
+
+.sideBarUlDiv{
+    display: flex;  flex-direction: column;
+}
+
+.sideBarUlDivul ul{
+    list-style: none;   margin: 0;  color: #12171F; font-family: "Raleway", sans-serif;
+    font-size: 16px;    font-weight: 600;   justify-content: space-between; width: 100%;
+}
+
+#sideBarnavigationBtn{
+    padding: 10px 10px 10px 10px; font-weight: 500;   cursor: pointer;    text-decoration: none;
+    color: #12171F; font-family: "Raleway", sans-serif; font-size: 16px;    font-weight: 600;
+    margin-top: 20px;margin-bottom: 20px;
+}
+
+.sideBarNavigation{
+    padding: 0px;
+}
+
+.sideBarNavigation li{
+    margin-top: 20px;margin-bottom: 20px;
+}
+
+#sideBarNavBtn{
+    display: flex;  width: 100%;    margin-top: 64px;   justify-content: left;  align-items: center;
+    text-align: center;
+}
+#sidebarsignInBtn{
+    background-color: #F8F8F8;    border: none;   border-right: 2px solid #0E1218 ;   margin-right: 20px; 
+    margin-bottom: 5px; margin-top: 5px;    padding: 4px 26px 4px 26px; color: #12171F; 
+    font-family: "Raleway", sans-serif; font-size: 16px;    font-weight: 600;
+}
+
+#sidebarconnectWalBtn{
+    color: white;   background-color: #0E1218;  border: none;   border-radius: 50px; 
+    padding: 10px 26px 10px 26px;   font-family: "Raleway", sans-serif;     font-size: 16px;
+    font-weight: 600; 
+
+}
+
+/*header*/
+
+.header{
+    display: flex;  width: 100%;    height: auto;
+}
+
+.titleArea{
+    width: 50%; z-index: 1;
+}
+
+.title{
+    width: 60%; position: absolute; z-index: 4;
+}
+
+#titre{
+    color: #12171F; font-family: "Raleway", sans-serif; font-size: 110px;   margin-top: 20px;
+    font-weight: 400;
+}
+
+.descrption{
+    margin-top: 292px;  height: 100%;   bottom: 1;  width: 70%;
+}
+
+.headerImg{
+    position:relative;  width: 50%; z-index: 0; margin-top: 50px;
+}
+
+#ImgInHead{
+    width: 100%;
+}
+
+.descrTxt{
+    color: #484D56; font-family: "Raleway", sans-serif; font-size: 16px;    font-weight: 600;
+}
+
+.discover{
+    display: flex;
+}
+
+.discoverTxt{
+    color: #12171F; font-family: "Raleway", sans-serif; font-size: 16px;    margin-right: 16px;
+    font-weight: 600;
+}
+
+.fistImg{
+    width: 50%; height: auto;
+}
+
+.secondImg{
+    width: 50%; height: auto;
+}
+
+#circleImg{
+    float: right;   width: 50%; height: auto;
+
+}
+
+#womenImg{
+    width: 100%;    height: 60%;    border-radius: 126px;   margin-right: 5px;
+}
+
+#monkeyImg{
+    width: 100%;    height: 60%;    border-radius: 126px;   margin-left: 5px;
+
+
+}
+/*collection*/
+
+#txtCollection{
+    font-family: "Raleway", sans-serif; font-size: 30px;   font-weight: 700;
+}
+
+.categorieChoice{
+    display: flex;  align-items: center;    width: 100%;
+    justify-content: space-between;
+}
+#activeCategorie{
+    background-color: #0E1218;  font-family: "Raleway", sans-serif; font-size: 14;
+    font-weight: 600;   color: white;   border-radius: 12px;    padding: 10px 26px 10px 26px;
+    border: none;   margin-right: 5px;
+}
+
+#otherCategorie{
+    background-color: #E8E9EA;  font-family: "Raleway", sans-serif; font-size: 14;
+    font-weight: 600;   color: black;   border-radius: 12px;    padding: 10px 26px 10px 26px;
+    border: none;   margin-right: 5px;  margin-left: 5px;
+}
+
+#viewMoreLink{
+    color: #0E1218;
+}
+
+.lineCategorie{
+    display: flex;  width: 100%;    justify-content: space-between; align-items: center;
+    text-align: center; margin: auto;
+    margin-top: 36px;
+}
+.blockCategorie{
+    width: 100%; height: auto;   padding: 12px;  border: 1px solid #B8BABE;  border-radius: 20px;
+    text-align: center; 
+}
+
+.categorieImg{
+    width: 23%;    height: auto;   display: flex;  justify-content: center;
+}
+
+#imgForCategorie{
+    width: 100%;    height: 213px;  object-fit: cover;  border-radius: 20px ;
+}
+
+.txtInCategorie{
+    display: flex;  justify-content: space-between; align-items: center;
+}
+
+#text{
+    font-family: "Raleway", sans-serif; font-size: 16;  font-weight: 700;   color: #0E1218;
+}
+
+.rate{
+    display: flex;  align-items: center;font-family: "Raleway", sans-serif; font-size: 16;  font-weight: 700;
+}
+
+#rateImg{
+    padding-right: 5px;
+}
+
+#placeBtn{
+    width: 100%;    padding: 10px 26px 10px 26px;   border: 1px solid #0E1218;  border-radius: 12px;
+    color: #0E1218; font-family: "Raleway", sans-serif; font-size: 16;  font-weight: 600;
+    background-color: white;
+}
+
+/*create and sell now*/
+.createAnd{
+    margin-top: 96px;   width: 100%;
+}
+
+.lineCreateAndSell{
+    display: flex;  width: 100%;    height: auto;   justify-content: space-between;
+    align-items: center;
+}
+.blockInCreatAndSell{
+    background-color: #E8E9EA;  width: 19%; height: auto;   padding: 24px;  border:none;  border-radius: 24px;
+}
+
+#txtCreatAndSell{
+    font-size: 20px;    font-weight: 700;   font-family: "Raleway", sans-serif;
+    width: 100%;
+}
+
+#descriptionInCreateAndeSell{
+    font-size: 14px;    font-weight: 500;   font-family: "Raleway", sans-serif;
+    width: 100%;
+}
+
+/*builde nft*/
+
+.buildNft{
+    background-image: url('assets/images/build\ NFT\'s.png');   background-position: center;
+    background-size: cover; background-repeat: no-repeat;   width: 100%;    border: none;
+    border-radius: 32px;    text-align: center; margin-top: 96px;
+}
+
+.opaquediv{
+    padding: 72px 0px 72px 0px; border-radius: 32px;    background-color: rgba(0, 0, 0, 0.443);
+    width: 100%;    height: 100%;
+}
+
+#txtBuildNft{
+    font-size: 64px;    margin: 20px;   color: white;   font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+
+#descriptionBuildNft{
+    margin: 20px;   font-size: 20px;    color: white;   font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+
+#builNftBtn{
+    margin: 20px;   border: none;   background-color: white;    color: #0E1218; border-radius:42px ;
+    padding: 10px 26px 10px 26px;   font-size: 16px;    font-weight: 600;   font-family: "Raleway", sans-serif;
+}
+
+/*footer*/
+
+.footer{margin-top: 96px;}
+
+.footerLinks{
+    width: 100%;    border-top: 0.5px solid #B8BABE;    display: flex;  justify-content: space-between; align-items: center;
+}
+
+#footerTxt{ 
+    color: #181D28; font-size: 24px;    font-weight: 600;   font-family: "Raleway", sans-serif;
+}
+
+#faqAndOther{  
+    text-decoration: none;  color: black; font-size: 14px;  font-weight: 500;   font-family: "Raleway", sans-serif;
+    padding-left: 30px;
+}
+
+/*Responsivité*/
+@media (max-width:424px){
+    .main{
+        width: 95%;
+    }
+    .header{
+        flex-direction: column;
+    }
+    #titre{
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+    .descrption{
+        margin-top: 152px;
+    }
+    .ulDiv, .navBtn, #signInBtn, #connectWalBtn{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .titleArea, .title, .headerImg{
+        width: 100%;
+    }
+    .categorieChoice {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .categorieChoice div:first-child {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        white-space: nowrap;
+    }
+    #activeCategorie, #otherCategorie{
+        margin-bottom: 10px;
+    }
+
+    .categorieChoice button {
+        display: inline-block;
+    }
+
+    .lineCategorie, .lineCreateAndSell{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .categorieImg{
+        width: 100%;
+        margin: 10px;
+    }
+    .blockInCreatAndSell{
+        width: 100%;
+        margin: 10px;
+    }
+    #txtBuildNft{
+        font-size: 28px;
+    }
+    #descriptionBuildNft{
+        font-size: 12px;
+    }
+    .footerLinks{
+        flex-wrap: wrap;
+    }
+    #footerTxt{
+        font-size: 20px;
+    }
+    .faqAndOtherDiv, .footerLinks{
+        width: 100%;
+    }
+    #faqAndOther{
+        width: 100%;
+        padding: 0px 10px 30px 0px;
+    }
+}
+
+@media (min-width:425px) and (max-width:748px){
+    .main{
+        width: 95%;
+    }
+    .header{
+        flex-direction: column;
+    }
+    #titre{
+        font-size: 70px;
+        margin-bottom: 0px;
+    }
+    .descrption{
+        margin-top: 182px;
+    }
+    .ulDiv, .navBtn, #signInBtn, #connectWalBtn{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .titleArea, .title, .headerImg{
+        width: 100%;
+    }
+    .categorieChoice {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .categorieChoice div:first-child {
+        display: flex;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+        white-space: nowrap;
+    }
+    #activeCategorie, #otherCategorie{
+        margin-bottom: 10px;
+    }
+
+    .categorieChoice button {
+        display: inline-block;
+    }
+    .lineCategorie, .lineCreateAndSell{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .categorieImg{
+        width: 50%;
+        margin: 10px;
+    }
+    .blockInCreatAndSell{
+        width: 50%;
+        margin: 10px;
+    }
+    #txtBuildNft{
+        font-size: 28px;
+    }
+    #descriptionBuildNft{
+        font-size: 12px;
+    }
+    .footerLinks{
+        flex-wrap: wrap;
+    }
+    #footerTxt{
+        font-size: 20px;
+    }
+    .faqAndOtherDiv, .footerLinks{
+        width: 100%;
+    }
+    #faqAndOther{
+        width: 100%;
+        padding: 0px 10px 30px 0px;
+    }
+}
+
+@media (min-width:749px) and (max-width:900px){
+    .header{
+        flex-direction: column;
+    }
+    #titre{
+        font-size: 98px;
+    }
+    .ulDiv, .navBtn, #signInBtn, #connectWalBtn{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .titleArea, .title, .headerImg{
+        width: 100%;
+    }
+    .lineCategorie, .lineCreateAndSell{
+        flex: 2;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .categorieImg{
+        width: 45%;
+        margin: 10px;
+    }
+    .blockInCreatAndSell{
+        width: 38%;
+        margin: 10px;
+    }
+    .footerLinks{
+        flex-wrap: wrap;
+    }
+    .faqAndOtherDiv, .footerLinks{
+        width: 100%;
+    }
+    #faqAndOther{
+        width: 100%;
+        padding: 0px 10px 30px 0px;
+    }
+
+}
+@media (min-width:901px) and (max-width:1197px){
+    .header{
+        flex-direction: column;
+    }
+    #titre{
+        font-size: 100px;
+    }
+    .ulDiv, .navBtn, #signInBtn, #connectWalBtn{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .titleArea, .title, .headerImg{
+        width: 100%;
+    }
+    .lineCategorie, .lineCreateAndSell{
+        flex: 2;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .categorieImg{
+        width: 45%;
+        margin: 10px;
+    }
+    .blockInCreatAndSell{
+        width: 38%;
+        margin: 10px;
+    }
+    .footerLinks{
+        flex-wrap: wrap;
+    }
+    .faqAndOtherDiv, .footerLinks{
+        width: 100%;
+    }
+    #faqAndOther{
+        width: 100%;
+        padding: 0px 10px 30px 0px;
+    }
+
+}

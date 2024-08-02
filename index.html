@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <!--nav bar-->
+        <nav>
+            <div class="log">
+                <img src="assets/images/Group.png" alt="">                                                  
+            </div>
+            <div class="ulDiv">
+                <ul class="navigation">
+                    <li><a href="" id="activeColor" class="activeColor">Home</a></li>
+                    <li><a href="" id="navigationBtn">Top sales</a></li>
+                    <li><a href="" id="navigationBtn">Collections</a></li>
+                    <li><a href="" id="navigationBtn">Ours blog</a></li>
+                    <li><a href="" id="navigationBtn">About us</a></li>
+                </ul>
+            </div>
+            <div class="navBtn" style="display: flex;" >
+                <button id="signInBtn">sign up</button>
+                <button id="connectWalBtn">Connect Wallet</button>
+            </div>
+            <div onclick="showSidebar()" class="menu">
+                <img id="menuIcon" src="assets/images/Vector.png" alt="">
+            </div>
+        </nav>
+        <!--sideBar-->
+        <section>
+            <div class="sidbarBk">
+                <div class="sideBar">
+                    <div onclick="hideSidebar()" class="close" >
+                        <img id="menuIcon" src="assets/images/Vectorx.png" alt="">
+                    </div>
+                    <div class="sideBarUlDiv">
+                        <ul class="sideBarNavigation">
+                            <li><a href="" id="activeColor" class="activeColor">Home</a></li>
+                            <li><a href="" id="sideBarnavigationBtn">Top sales</a></li>
+                            <li><a href="" id="sideBarnavigationBtn">Collections</a></li>
+                            <li><a href="" id="sideBarnavigationBtn">Ours blog</a></li>
+                            <li><a href="" id="sideBarnavigationBtn">About us</a></li>
+                        </ul>
+                    </div>
+                    <div id="sideBarNavBtn" >
+                        <button id="sidebarsignInBtn">sign up</button>
+                        <button id="sidebarconnectWalBtn">Connect Wallet</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--header -->
+        <section>
+            <div class="header">
+                <div class="titleArea">
+                    <div class="title">
+                        <p id="titre">See the NFT new world<p>
+                    </div>
+                    <div class="descrption">
+                        <div><p class="descrTxt">Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, di</p></div>
+                        <div class="discover">
+                            <p class="discoverTxt">Discover Vow</p>
+                            <img class="discorverArrow" src="assets/images/Frame 126.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="headerImg">
+                    <img id="ImgInHead" src="assets/images/Frame 136.png" alt="">
+                    <!-- <div class="fistImg">
+                        <img id="circleImg" src="assets/images/Frame.png" alt="">
+                        <img id="womenImg" src="assets/images/8machine-_-GVAYgLlpeZ8-unsplash.png" alt="">
+                    </div>
+                    <div class="secondImg">
+                        <img id="monkeyImg" src="assets/images/TOP-10-NFT-TOKENS-TO-KNOW-IN-2023-.png" alt="">
+                    </div> -->
+                </div>
+            </div> 
+        </section>
+        <!-- collection -->
+        <section >
+            <div><h3 id="txtCollection">Our collections</h3></div>
+            <div class="categorieChoice">
+                <div>
+                    <button id="activeCategorie">All categories</button>
+                    <button id="otherCategorie">Art</button>
+                    <button id="otherCategorie">Celebrities</button>
+                    <button id="otherCategorie">Gamming</button>
+                    <button id="otherCategorie">Sport</button>
+                </div>
+                <div>
+                    <a href="" id="viewMoreLink">view more</a>
+                </div>
+            </div>
+            <div class="lineCategorie">
+                <div class="categorieImg">
+                    <div class="blockCategorie">
+                        <div><img id="imgForCategorie" src="assets/images/CyberPunk.png" alt=""></div>
+                        <div class="txtInCategorie">
+                            <p id="text">CyberPunk</p>
+                            <div class="rate">
+                                <img id="rateImg" src="assets/images/ethereum-ellipse.png" alt="">
+                                <p id="text">68</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button id="placeBtn">Place a Bid</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="categorieImg">
+                    <div class="blockCategorie">
+                        <div><img id="imgForCategorie" src="assets/images/Durolost  Boll - Upper.png" alt=""></div>
+                        <div class="txtInCategorie">
+                            <p id="text">Durolost  Boll - Upper</p>
+                            <div class="rate">
+                                <img id="rateImg" src="assets/images/ethereum-ellipse.png" alt="">
+                                <p id="text">68</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button id="placeBtn">Place a Bid</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="categorieImg">
+                    <div class="blockCategorie">
+                        <div><img id="imgForCategorie" src="assets/images/Space X Wiper.png" alt=""></div>
+                        <div class="txtInCategorie">
+                            <p id="text">Space X Wiper</p>
+                            <div class="rate">
+                                <img id="rateImg" src="assets/images/ethereum-ellipse.png" alt="">
+                                <p id="text">68</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button id="placeBtn">Place a Bid</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="categorieImg">
+                    <div class="blockCategorie">
+                        <div><img id="imgForCategorie" src="assets/images/Snoop Dogg.png" alt=""></div>
+                        <div class="txtInCategorie">
+                            <p id="text">Snoop Dogg</p>
+                            <div class="rate">
+                                <img id="rateImg" src="assets/images/ethereum-ellipse.png" alt="">
+                                <p id="text">68</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button id="placeBtn">Place a Bid</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--creat and sell-->
+        <section>
+            <div class="createAnd">
+                <div><h3 id="txtCollection">Create and Sell Now</h3></div>
+                <div class="lineCreateAndSell">
+                    <div class="blockInCreatAndSell">
+                        <img src="assets/images/Set up your wallet Icon.png" alt="">
+                        <p id="txtCreatAndSell">Set up your wallet</p>
+                        <p id="descriptionInCreateAndeSel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                    </div>
+                    <div class="blockInCreatAndSell">
+                        <img src="assets/images/Add your NFT’s Icon.png" alt="">
+                        <p id="txtCreatAndSell">Add your NFT's</p>
+                        <p id="descriptionInCreateAndeSel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                    </div>
+                    <div class="blockInCreatAndSell">
+                        <img src="assets/images/Promote your NFT’s Icon.png" alt="">
+                        <p id="txtCreatAndSell">Promote your NFT’s</p>
+                        <p id="descriptionInCreateAndeSel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                    </div>
+                    <div class="blockInCreatAndSell">
+                        <img src="assets/images/Sell your NFT’s Icon.png" alt="">
+                        <p id="txtCreatAndSell">Sell your NFT’s</p>
+                        <p id="descriptionInCreateAndeSel">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--build your nft-->
+        <section>
+            <div class="buildNft">
+                <div class="opaquediv">
+                    <h1 id="txtBuildNft">Build your NFT profile</h1>
+                    <p id="descriptionBuildNft">Join almost 10k NFT profiles on Digit !</p>
+                    <button id="builNftBtn">Sign up now</button>
+                 </div>
+                
+            </div>
+        </section>
+        <!--footer-->
+        <section class="footer">
+            <div class="logoInFooter">
+                <img src="assets/images/Group.png" alt="">
+            </div>
+            <div class="footerLinks">
+                <div>
+                    <p id="footerTxt">Create Explore & Collect Digital  NFTs</p>
+                </div>
+                <div class="faqAndOtherDiv">
+                    <a  id="faqAndOther" href="">Privacy</a>
+                    <a  id="faqAndOther" href="">Terms & Conditions</a>
+                    <a  id="faqAndOther" href="">About Us</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+<script src="main.js"></script>
+</body>
+</html>
